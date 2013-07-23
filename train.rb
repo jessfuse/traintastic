@@ -9,6 +9,11 @@ class Train
     @model = model
     @speed = speed
   end
+
+  def trip_duration(distance)
+    distance / speed
+  end
+  
   
   def power_source
     if @model.include?('-A')
