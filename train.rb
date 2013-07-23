@@ -13,6 +13,10 @@ class Train
   def trip_duration(distance)
     distance / speed
   end
+
+  def trip_distance(duration)
+    distance * speed 
+  end 
   
   
   def power_source
