@@ -14,4 +14,12 @@ class Train
     distance * speed
   end
   
+  
+  def power_source
+    if @model.include?('-A')
+      'steam'
+    else
+      'diesel'
+    end
+  end
 end
