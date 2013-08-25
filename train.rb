@@ -5,6 +5,7 @@ class Train
   # speed - The Integer speed of the train, in MPH.
   #
   # Returns a new Train.
+  
   def initialize(model, speed)
     @model = model
     @speed = speed
